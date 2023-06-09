@@ -67,7 +67,8 @@ class CyberPay extends AbstractProvider
 				'comment'   => $purchase->title,
 				'custom_fields'  => $purchaseRequest->request_key,
 				'hook_url'    => $this->getCallbackUrl(),
-				'expire'    => 1900
+				'expire'    => 1900,
+				'method' => 'card'
 			];
 		} else {
 			return [
@@ -76,7 +77,8 @@ class CyberPay extends AbstractProvider
 				'comment'   => $purchase->title,
 				'custom_fields'  => $purchaseRequest->request_key,
 				'hook_url'    => $this->getCallbackUrl(),
-				'expire'    => 1900
+				'expire'    => 1900,
+				'method' => 'card'
 			];
 		}
 	}
