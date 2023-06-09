@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="cp_pg_cp_api_key" version_id="1000070" version_string="1.0"><![CDATA[UUID магазина]]></phrase>
+  <phrase title="cp_pg_cp_api_key_explain" version_id="1000070" version_string="1.0"><![CDATA[UUID можно узнать, нажав на "?" рядом с ID магазина]]></phrase>
+  <phrase title="cp_pg_cp_you_must_provide_all_data" version_id="1000070" version_string="1.0"><![CDATA[Вы должны заполнить все данные!]]></phrase>
+  <phrase title="cp_pg_cp_sum_is_too_big" version_id="1000070" version_string="1.0"><![CDATA[Введенная сумма слишком большая!]]></phrase>
+  <phrase title="cp_pg_cp_sum_is_too_small" version_id="1000070" version_string="1.0"><![CDATA[Введенная сумма слишком маленькая!]]></phrase>
+</phrases>

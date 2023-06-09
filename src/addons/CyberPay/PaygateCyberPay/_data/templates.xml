@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+  <template type="admin" title="payment_profile_cpCyberPay" version_id="1000070" version_string="1.0.0"><![CDATA[<xf:textboxrow name="options[shop_uuid]" value="{$profile.options.shop_uuid}"
+			   label="{{ phrase('cp_pg_cp_api_key') }}"
+			   explain="{{ phrase('cp_pg_cp_api_key_explain') }}"
+			   hint="{{ phrase('required') }}">
+</xf:textboxrow>]]></template>
+</templates>
