@@ -68,7 +68,9 @@ class CyberPay extends AbstractProvider
 				'custom_fields'  => $purchaseRequest->request_key,
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
-				'method' => 'card'
+				'method' => 'card' //card or crypto
+				"success_url": "https://cyberpay.lol/success", //or your site
+	                        "subtract": "1"
 			];
 		} else {
 			return [
@@ -78,7 +80,9 @@ class CyberPay extends AbstractProvider
 				'custom_fields'  => $purchaseRequest->request_key,
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
-				'method' => 'card'
+				'method' => 'card' //card or crypto
+                                "success_url": "https://cyberpay.lol/success", //or your site
+	                        "subtract": "1"
 			];
 		}
 	}
