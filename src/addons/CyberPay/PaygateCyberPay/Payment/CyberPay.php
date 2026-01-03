@@ -69,8 +69,8 @@ class CyberPay extends AbstractProvider
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
 				'method' => 'card' //на выбор из https://docs.cyberpay.ltd/docs/create-order/ 
-				"success_url": "https://cyberpay.ltd/success", //or your site
-	            "subtract": "1"
+				"success_url" => "https://cyberpay.ltd/success", //or your site
+	            "subtract" => "1"
 			];
 		} else {
 			return [
@@ -81,8 +81,8 @@ class CyberPay extends AbstractProvider
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
 				'method' => 'card' //на выбор из https://docs.cyberpay.ltd/docs/create-order/ 
-                "success_url": "https://cyberpay.ltd/success", //or your site
-	            "subtract": "1"
+                "success_url" => "https://cyberpay.ltd/success", //or your site
+	            "subtract" => "1"
 			];
 		}
 	}
