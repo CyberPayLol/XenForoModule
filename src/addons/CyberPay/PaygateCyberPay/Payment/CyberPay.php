@@ -26,7 +26,7 @@ class CyberPay extends AbstractProvider
 	 */
 	public function getApiEndpoint(): string
 	{
-		return 'https://api.cyberpay.lol/';
+		return 'https://api.cyberpay.ltd/';
 	}
 
 	/**
@@ -69,7 +69,7 @@ class CyberPay extends AbstractProvider
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
 				'method' => 'card' //card or crypto
-				"success_url": "https://cyberpay.lol/success", //or your site
+				"success_url": "https://cyberpay.ltd/success", //or your site
 	                        "subtract": "1"
 			];
 		} else {
@@ -81,7 +81,7 @@ class CyberPay extends AbstractProvider
 				'hook_url'    => $this->getCallbackUrl(),
 				'expire'    => 1900,
 				'method' => 'card' //card or crypto
-                                "success_url": "https://cyberpay.lol/success", //or your site
+                                "success_url": "https://cyberpay.ltd/success", //or your site
 	                        "subtract": "1"
 			];
 		}
